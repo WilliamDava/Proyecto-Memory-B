@@ -1,10 +1,9 @@
+import j001 from './J001_events.js';
+
 window.addEventListener('load', function () {
+j001.defEvent("easy", "click");
+});
 
-    /* const nodedificultyEasy = document.querySelector(".dificulty__select--easy");
-    nodedificultyEasy.addEventListener($setdificultyToEasy) 
-    AQUI EN EL FUTURO PONDREMOS COSAS ESTATICAS
-    */
 
-})
 
 

@@ -1,7 +1,7 @@
-import j001 from './J001_events.js';
+
 
 const j002_dom = {
-    setdificultyToEasy(){
+    setDificultyToEasy(){
         console.log("easy")
     }
 }

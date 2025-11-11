@@ -1,12 +1,12 @@
-import j002 from './j002_getData.js';
+import j002 from './J002_dom.js';
 
 const j001_events = {
     defEvent(functionality, typeEvent) {
         switch (functionality) {
             case "easy":
-                 const nodedificultyEasy = document.querySelector(".dificulty__select--easy");
-                nodedificultyEasy.addEventListener(j002.setdificultyToEasy) 
-                console.log("Easy")
+                const nodeDificultyEasy = document.querySelector(".dificulty__select--easy");
+                nodeDificultyEasy.addEventListener("click" , j002.setDificultyToEasy) 
+              /*   console.log("Easy") */
                 break;
         }
     }
