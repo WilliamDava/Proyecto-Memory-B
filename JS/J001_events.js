@@ -4,8 +4,8 @@ const j001_events = {
     defEvent(functionality, typeEvent) {
         switch (functionality) {
             case "easy":
-                /* const nodedificultyEasy = document.querySelector(".dificulty__select--easy");
-                nodedificultyEasy.addEventListener($setdificultyToEasy) */
+                 const nodedificultyEasy = document.querySelector(".dificulty__select--easy");
+                nodedificultyEasy.addEventListener(j002.setdificultyToEasy) 
                 console.log("Easy")
                 break;
         }
